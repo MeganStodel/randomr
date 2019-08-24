@@ -1,0 +1,81 @@
+[?25l$ g[0K[?25ho[0Kt[0K[7G[6G[?25l$ go[0K[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git i[0K[?25hn[0Ki[0Kt[0K[?25l
+[0K[?25hInitialized empty Git repository in C:/Users/Asus/Dropbox/Megan/Jobs/Applications/Applications - 2019/Mango/coding-test-R/randomr/.git/[0K[?25l
+[0K[?25h[?25l
+[0;32mAsus@DESKTOP-MQA47T0 [0;35m [0;33m~/Dropbox/Megan/Jobs/Applications/Applications - 2019/Mango/coding-test-R/randomr[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0Kd[0K[?25l$ git add[0K[?25h[11G[?25l$ git add .[0K[?25h[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rhistory.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+error: open(".Rproj.user/7C1EDAA2/console06/DD1DB781"): Permission denied[0K
+error: unable to index file .Rproj.user/7C1EDAA2/console06/DD1DB781[0K
+fatal: adding files failed[0K
+[0K[?25h[?25l
+[0;32mAsus@DESKTOP-MQA47T0 [0;35m [0;33m~/Dropbox/Megan/Jobs/Applications/Applications - 2019/Mango/coding-test-R/randomr[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git r[0K[?25he[0Km[0Ko[0Kt[0Ke[0K[14G[?25l$ git remote a[0K[?25hd[0Kd[0K[18G[?25l$ git remote add o[0K[?25hr[0K[?25li[0K[20G[?25h[21G[?25l$ git remote add orig[0K[?25hi[0Kn[0K[25G[?25l$ git remote add origin https://github.com/MeganStodel/randomr[0K[?25h[?25l
+[0K[?25h[?25l
+[0;32mAsus@DESKTOP-MQA47T0 [0;35m [0;33m~/Dropbox/Megan/Jobs/Applications/Applications - 2019/Mango/coding-test-R/randomr[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ ssh -vT git@github.com[0K[?25h[?25l
+[0K[?25hOpenSSH_for_Windows_7.7p1, LibreSSL 2.6.5[0K[?25l
+[0K[?25hdebug1: Connecting to github.com [140.82.118.3] port 22.[0K[?25l
+[0K[?25hdebug1: Connection established.[0K[?25l
+[0K[?25hdebug1: identity file C:\\Users\\Asus/.ssh/id_rsa type 0[0K[?25l
+debug1: key_load_public: No such file or directory[0K
+debug1: identity file C:\\Users\\Asus/.ssh/id_rsa-cert type -1[0K
+debug1: key_load_public: No such file or directory[0K
+debug1: identity file C:\\Users\\Asus/.ssh/id_dsa type -1[0K
+debug1: key_load_public: No such file or directory[0K
+debug1: identity file C:\\Users\\Asus/.ssh/id_dsa-cert type -1[0K
+debug1: key_load_public: No such file or directory[0K
+debug1: identity file C:\\Users\\Asus/.ssh/id_ecdsa type -1[0K
+debug1: key_load_public: No such file or directory[0K
+debug1: identity file C:\\Users\\Asus/.ssh/id_ecdsa-cert type -1[0K
+debug1: key_load_public: No such file or directory[0K
+debug1: identity file C:\\Users\\Asus/.ssh/id_ed25519 type -1[0K
+debug1: key_load_public: No such file or directory[0K
+debug1: identity file C:\\Users\\Asus/.ssh/id_ed25519-cert type -1[0K
+debug1: key_load_public: No such file or directory[0K
+debug1: identity file C:\\Users\\Asus/.ssh/id_xmss type -1[0K
+debug1: key_load_public: No such file or directory[0K
+debug1: identity file C:\\Users\\Asus/.ssh/id_xmss-cert type -1[0K
+debug1: Local version string SSH-2.0-OpenSSH_for_Windows_7.7[0K
+[0K[?25hdebug1: Remote protocol version 2.0, remote software version babeld-216c4091[0K[?25l
+debug1: no match: babeld-216c4091[0K
+debug1: Authenticating to github.com:22 as 'git'[0K
+debug1: SSH2_MSG_KEXINIT sent[0K
+debug1: SSH2_MSG_KEXINIT received[0K
+debug1: kex: algorithm: curve25519-sha256[0K
+debug1: kex: host key algorithm: rsa-sha2-512[0K
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none[0K
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none[0K
+[0K[?25hdebug1: expecting SSH2_MSG_KEX_ECDH_REPLY[0K[?25l
+[0K[?25hdebug1: Server host key: ssh-rsa SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8[0K[?25l
+debug1: Host 'github.com' is known and matches the RSA host key.[0K
+debug1: Found key in C:\\Users\\Asus/.ssh/known_hosts:1[0K
+debug1: rekey after 134217728 blocks[0K
+debug1: SSH2_MSG_NEWKEYS sent[0K
+debug1: expecting SSH2_MSG_NEWKEYS[0K
+debug1: SSH2_MSG_NEWKEYS received[0K
+debug1: rekey after 134217728 blocks[0K
+debug1: pubkey_prepare: ssh_get_authentication_socket: No such file or directory[0K
+[0K[?25hdebug1: SSH2_MSG_EXT_INFO received[0K[?25l
+debug1: kex_input_ext_info: server-sig-algs=<ssh-ed25519,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-rsa,rsa-sha2-512,rsa-sha2-2[0K5
+6,ssh-dss>[0K
+[0K[?25hdebug1: SSH2_MSG_SERVICE_ACCEPT received[0K[?25l
+[0K[?25hdebug1: Authentications that can continue: publickey[0K[?25l
+debug1: Next authentication method: publickey[0K
+debug1: Offering public key: RSA SHA256:zGmuUy4NNdYeR9EhMkR90mU4d169QSn9chtEOB5fUj4 C:\\Users\\Asus/.ssh/id_rsa[0K
+[0K[?25hdebug1: Server accepts key: pkalg ssh-rsa blen 535[0K[?25l
+[0K[?25hdebug1: Authentication succeeded (publickey).[0K[?25l
+Authenticated to github.com ([140.82.118.3]:22).[0K
+debug1: channel 0: new [client-session][0K
+debug1: Entering interactive session.[0K
+debug1: pledge: network[0K
+[0K[?25hdebug1: client_input_channel_req: channel 0 rtype exit-status reply 0[0K[?25l
+Hi MeganStodel! You've successfully authenticated, but GitHub does not provide shell access.[0K
+debug1: channel 0: free: client-session, nchannels 1
+[0K[?25h[?25lTransferred: sent 3328, received 2484 bytes, in 0.2 seconds
+ceived 10438.4
+s 1
+1: Exit stat[0Ku[137G[?25h[?25l
+[0;32mAsus@DESKTOP-MQA47T0 [0;35m [0;33m~/Dropbox/Megan/Jobs/Applications/Applications - 2019/Mango/coding-test-R/randomr[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ ssh -vT git@github.com[0K[?25h[?25l$ git remote add origin https://github.com/MeganStodel/randomr[0K[?25h[?25l$ git add .[0K[?25h[?25l
+[0K[?25h
